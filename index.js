@@ -3,7 +3,7 @@ const logger = require('./logger.js');
 const { Yeelight } = require('yeelight-node')
 const device = new Yeelight({ ip: ip, port: port })
 
-const updateStep = 12500; // Delay between each step in milliseconds
+const updateStep = 12500; // Delay between each step in milliseconds, don't use values smaller than the transition time (300)
 
 const nightBrightness = 25; // Range 1 - 100
 const dayBrightness = 100;
