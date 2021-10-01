@@ -1,0 +1,28 @@
+{
+  "name": "yeelight-controller",
+  "version": "1.0.0",
+  "description": "This allows a Yeelight bulb temperature and brightness to be changed depending on the time of the day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jojos38/yeelight-temperature-controller.git"
+  },
+  "keywords": [
+    "yeelight",
+    "controller",
+    "temperature",
+    "brightness"
+  ],
+  "author": "jojos38",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jojos38/yeelight-temperature-controller/issues"
+  },
+  "homepage": "https://github.com/jojos38/yeelight-temperature-controller#readme",
+  "dependencies": {
+    "yeelight-node": "^1.1.5"
+  }
+}
