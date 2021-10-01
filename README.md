@@ -7,7 +7,7 @@ Install Node.js and just run in the project folder
 
 ## Run
 Open a command prompt in the project's folder and use
-`Node index.js`
+`node index.js`
 
 ## Configuration
 Open the config.json and change the ip with your bulb ip
